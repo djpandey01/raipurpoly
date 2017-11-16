@@ -133,6 +133,12 @@ body {
 /*=====================================
   HEADER LINE STYLES 
     ===================================*/
+	.header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
 .header-line {
     font-weight: 900;
     font-size: 25px;
@@ -143,11 +149,13 @@ body {
 
 h1::after {
     content: " ";
-    border: solid 2px #2f9484;
+    
     display: block;
     width: 200px;
     margin: 12px auto;
 }
+
+
 
 /*=====================================
   ABOUT STYLES 
