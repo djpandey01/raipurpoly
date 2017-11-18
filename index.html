@@ -12,6 +12,10 @@
 <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
      <!-- FLEXSLIDER CSS -->
 <link href="assets/css/flexslider.css" rel="stylesheet" />
+	<!--NEWSFEED CSS-->
+	<link href="css/style.css" rel="stylesheet" />
+	<!--THEME CSS-->
+	
     <!-- CUSTOM STYLE CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />    
 	<link href='custom.css' rel='stylesheet' type='text/css'>
@@ -88,12 +92,16 @@
         
     </div>
     <!--HOME SECTION TAG LINE END-->   
-         <div id="features-sec" class="container set-pad">
-             <div class="row text-center">
-                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line"><u>HISTORY</u> </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s" >
-                     <p align="justify"> Raipur Govt. Polytechnic is situated at Seromonipur, which is one
+	<!--TEST SECTION START-->
+	<!--=========== BEGIN ABOUT US SECTION ================-->
+    <section id="aboutUs">
+      <div class="container">
+        <div class="row">
+        <!-- Start about us area -->
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="aboutus_area wow fadeInLeft">
+            <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line"><u>HISTORY</u></h1>
+            <p>  Raipur Govt. Polytechnic is situated at Seromonipur, which is one
 (3 KM) from Raipur Block town and 66 kms from Bankura District
 town. It is situated on the road of Bankura-Jhargram Road via Raipur.
 Our main thrust is to develop the skill of the student as per the
@@ -102,14 +110,123 @@ Industries, Medium Industries, Small Industries, Service Sector &amp; I.T
 Sector. Side by side our aims also is to generate new method of
 thinking in handicraft section of the District such that they can do
 value addition in this Handicraft industries so that they will be viable
-in the International market.
-                         </p></p>
-						 
-						  
-                 </div>
-				
-				 
-				</div>
+in the International market.</p>
+          </div>
+        </div>
+		<div class="container">
+        <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="newsfeed_area wow fadeInRight">
+            <ul class="nav nav-tabs feed_tabs" id="myTab2">
+              <li class="active"><a href="#notice" data-toggle="tab">Notice</a></li>
+              <li><a href="#news" data-toggle="tab">News</a></li>
+              <li><a href="#events" data-toggle="tab">Events</a></li>         
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <!-- Start news tab content -->
+              <div class="tab-pane fade in active" id="notice">                
+                <ul class="news_tab">
+                  <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="assets/img/news.png" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+					 <h4><b>Important for all students</b></h4>
+                       <b>Attending classes are compulsory</b><!--<a href="files/info.pdf"><span>Read More [+]</span></a>
+                       <span class="feed_date">Jul. 15</span>-->
+                      </div>
+                    </div>                    
+                  </li>
+                  <!--<li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="assets/img/news.png" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+					  <h4><b>NCTE : Order</b></h4>
+                       <b>NCTE : National Council For Teacher Education</b><a href="files/order1.pdf"><span>Read More [+]</span></a>
+                       <span class="feed_date">Jul. 15</span>
+                      </div>
+                    </div>
+                  </li>-->
+                 <!-- <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="assets/img/news.png" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+					  <h4><b>NCTE : Order</b></h4>
+                       <b>Order of NCTE : National Council For Teacher Education</b><a href="files/order2.pdf"><span>Read More [+]</span></a>
+                       <span class="feed_date">Jul. 15</span>
+                      </div>
+                    </div>
+                  </li>-->
+                </ul>                
+                
+              </div>
+              <!-- Start notice tab content -->  
+              <div class="tab-pane fade " id="news">
+                <div class="single_notice_pane">
+                  <ul class="news_tab">
+                    <li>
+                      <div class="media">
+                        <div class="media-left">
+                          <a class="news_img" href="#">
+                            <img class="media-object" src="assets/img/news.png" alt="img">
+                          </a>
+                        </div>
+                        <div class="media-body">
+                         <a href="#">No NEWS available at present</a>
+                         <span class="feed_date"></span>
+                        </div>
+                      </div>                   
+                    </li>
+                                                 
+                  </ul>
+                </div>               
+              </div>
+              <!-- Start events tab content -->
+              <div class="tab-pane fade " id="events">
+                <ul class="news_tab">
+                  <li>
+                    <div class="media">
+                      <div class="media-left">
+                        <a class="news_img" href="#">
+                          <img class="media-object" src="assets/img/news.png" alt="img">
+                        </a>
+                      </div>
+                      <div class="media-body">
+                       <a href="#">No events available at present.</a>
+                       <span class="feed_date"></span>
+                      </div>
+                    </div>
+                  </li>
+                                
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+		</div>
+      </div>
+      </div>
+      </div>
+    </section>
+    <!--=========== END ABOUT US SECTION ================--> 
+	
+	<!--TEST SECTION END-->
+         <div id="features-sec" class="container set-pad">
+             
 				
              </div>
 			 
@@ -164,69 +281,7 @@ in the International market.
                </div>
              
    <!-- FEATURES SECTION END-->
-   <!-- <div id="faculty-sec" >
-    <div class="container set-pad">
-             <div class="row text-center">
-                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR FACULTY </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo.
-                         </p>
-                 </div>
-
-             </div>
-             <!--/.HEADER LINE END-->
-
-         <!--  <div class="row" >
-           
-               
-                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
-                     <div class="faculty-div">
-                     <img src="assets/img/faculty/1.png"  class="img-rounded" />
-                   <h3 >ABC </h3>
-                 <hr />
-                         <h4>Desigining <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
-                </div>
-                   </div>
-                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
-                     <div class="faculty-div">
-                     <img src="assets/img/faculty/1.png"  class="img-rounded" />
-                   <h3 >ABC</h3>
-                 <hr />
-                         <h4>Enginering <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
-                </div>
-                   </div>
-               <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
-                     <div class="faculty-div">
-                     <img src="assets/img/faculty/1.png" class="img-rounded" />
-                   <h3 >ABC</h3>
-                 <hr />
-                         <h4>Management <br /> Department</h4>
-                   <p >
-                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo . 
-                       
-                   </p>
-                </div>
-                   </div>
-                 
-               </div>
-             </div>
-        </div>
-    <!-- FACULTY SECTION END-->
+   
       <div id="course-sec" class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
